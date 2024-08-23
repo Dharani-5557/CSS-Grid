@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding:200px;
+        margin: 20px;
+    }
+    
+    .gridcontainer{
+        display: grid;
+        grid-template-rows: 1fr 4fr 1fr;
+        gap:10px;
+        background-color:lightpink;
+        height: 800px;
+        width: 1000px;
+        padding: 30px;
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+        background-color: aqua;
+        font-family: cursive;
+
+
+    }
+    .heading h1{
+        display: grid;
+        font-weight: bold;
+        color: black;
+        text-decoration: underline;
+    }
+    .medium{
+        display:grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        text-align: center;
+        gap:50px;
+        padding:30px;
+
+    }
+   .lists  {
+        border: 7px solid red;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .lists ol li
+    {
+         width: 20px;      
+    }
+
+    .pictures
+    {
+        display: grid;
+        border: 7px solid red;
+        gap: 20px;
+        
+    }
+
+    .footer
+    {
+        background-color: aquamarine;
+        
+    }
+
+    .footer h1
+    {
+        text-align: center;
+        color:black;
+        font-family: cursive;
+        font-weight: bold;
+        text-decoration: underline;
+        
+    }
+
+    .footer p
+    {
+        font-family: cursive;
+        font-size: small;
+    }
+</style>
+<body>
+    <h1 style="text-decoration: underline; text-align: center; color: blue;">GRID CONTAINER</h1>
+    <div class="gridcontainer">
+      <div class="heading">
+          <h1>CASCADING STYLE SHEET</h1>  
+          <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML<br> (including XML dialects such as SVG, MathML or XHTML).<br> CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+       </div>
+
+       <div class="medium">
+
+        <div class="lists"> 
+        <h5>CHOOSE ANYONE</h5>
+         <ol >
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA</li>
+            <li>python</li>
+            <li>REACT</li>
+          </ol>
+        </div>
+        <div class="pictures">
+        <img src="./edu1 pic.jfif" height="350px" width="188px">
+        </div>
+        <div class="pictures">
+        <img src="./edu2 pic.jpg" height="350px" width="188px">
+        </div>
+        <div class="pictures">
+        <img src="./edu3 pic.jfif" height="350px" width="188px" >
+        </div>
+        
+      </div>
+
+    <div class="footer">
+         <h1>CONCLUSION</h1>
+    <p>If we had to pick one theme for this year's survey, it would be new beginnings.<br> A new survey in a brand new domain for us; new features for CSS; and a newfound respect for CSS's ever-improving capabilities from the community.<br>
+
+      To be fair, CSS has seen its share of doubters as well.<br> The growing importance given to JavaScript over the past few years can sometimes leave some feeling like HTML & CSS are becoming second-tier players, <br>and like their own skills in these fields aren't as valued anymore.<br></p>
+    </div> 
+  </div>
+</body>
+</html>
